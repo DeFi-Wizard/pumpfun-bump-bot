@@ -1,8 +1,10 @@
 import("node-fetch").then(({ default: fetch }) => {
   // Configuration Section
   const API_KEY = "your-pumpportal-api-key-here"; // generate your own api key from pumpportal (https://pumpportal.fun/trading-api/setup) your api key should not be published anywhere. it gives access to your wallet private key
+  const API_KEY = "d7296633-6069-48f1-b1aa-e5a3805782b8"; // generate your own api key from pumpportal (https://pumpportal.fun/trading-api/setup) your api key should not be published anywhere. it gives access to your wallet private key
   const TOKEN_MINT = "your-tokens-mint-address-here"; // example "xxxxxxxxxxxxM6BWiJVhmttjpump"
   const BUY_AMOUNT = 0.023; // Amount of SOL to spend on each buy
+  const BUY_AMOUNT = 0.012; // Amount of SOL to spend on each buy
   const TIME_BETWEEN_BUYS = 5000; // 5 seconds
   const TIME_BEFORE_SELL = 10000; // 10 seconds
   const TIME_AFTER_SELL = 5000; // 5 seconds - so you don't attempt to buy before the sol is back in your wallet
